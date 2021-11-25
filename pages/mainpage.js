@@ -15,7 +15,7 @@ function App() {
   }
 
   return (
-    /*<div className={styles.text}>*/
+    <div className={styles.text}>
       <br /><br /><br />
       <h1>บันทึกการมาโรงเรียนประจำวัน</h1>
       <button className={styles.addButton} onClick={getDate}>Show Date</button>
